@@ -1,4 +1,4 @@
-# Symulator-Bicia-Zony
-Prosta symulacja bicia żony!
+# Symulator Bicia Gremlina
+Prosta symulacja bicia jakiegoś żula, który ciebie wkurwia!!!!
 
 Projekt wytworzony z nudy
