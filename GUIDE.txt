@@ -1,0 +1,27 @@
+Oto jak pobrać poprawnie symulator:
+
+A. Plik ZIP
+1. Pobierz sam dołączony ZIP wewnątrz repozytorium
+2a. Wyodrębnij folder
+2b. Nie przesuwaj żadnych plików ze swojej lokalizacji (.html, .css itp muszą być w tym samym miejscu co folder Materials/ bo inaczej nie będzie działać!!)
+
+B. Całe repozytorium
+Jeżeli wolisz ciężej, możesz nie stosować się do wersji A i postąpić następująco:
+1. Pobierz ZIP repozytorium
+2a. Wyodrębnij folder
+2b. Nie przesuwaj żadnych plików ze swojej lokalizacji (.html, .css itp muszą być w tym samym miejscu co folder Materials/ bo inaczej nie będzie działać!!)
+3. Teraz usuń to co ci nie jest potrzebne, do niepotrzebnych ci rzeczy zaliczają się następujące pliki:
+- README.md
+- LICENSE
+- GUIDE.txt [ten plik]
+oraz ten ZIP, z którego korzystalibyście w Wersji A.
+4. Wszystko gotowe, jak nie działa to usunęliście czegoś czego nie powinniście byli...
+
+CO JEŻELI NIE CHCE DZIAŁAĆ?
+[Podpowiedź: błędy można sprawdzić w Konsoli, aby do niej się dostać trzeba wcisnąć sekwencję ctrl+shift+i i przejść do zakładki Konsola (lub w angielskich DevToolsach: Console)]
+Jeżeli to jest jakiś inny błąd, to błąd trzeba zgłosić autorowi
+Jeżeli błąd wygląda jednakże podobnie do tego: "Failed to load resources: net::ERR_FILE_NOT_FOUND" - Oznacza to, że dokument nie wykrywa plików z Materials/ z jakiegoś powodu, można to rozwiązać na te sposoby:
+- Wyrzuć wszystko z folderu Materials/, usuń folder Materials/, stwórz nowy folder o nazwie "Materials" i wrzuć te pliki do niego.
+- Jeżeli wiesz jak: wywal wszystko z Materials/ do reszty plików i zmień w .html oraz .css z jakiej ścieżki bierze (usuń wszystkie "Materials/")
+- Możesz również usunąć wszystko i pobrać to jeszcze raz, czasami starczy to, aby zaczęło *tak z dupy* działać (przynajmniej było tak z beta testerem, pewnym panem Ciupagą Polską)
+- Jeżeli powyższe nie działa, to znaczy że masz problem bo nie ma innych sposobów na rozwiązanie tego w tych, które bym kojarzył.
